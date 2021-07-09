@@ -1,0 +1,8 @@
+body {
+    background-color: antiquewhite;
+}
+
+select {
+    font-size: larger;
+    border-radius: 5%;
+}

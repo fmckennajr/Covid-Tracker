@@ -21,9 +21,11 @@ fetch(selectorURL).then(
         }
     )
 
+ 
+
 select.onchange = () =>{
-    console.log(select.value)
     let apiURL = selectorURL + select.value
+    
     fetch(apiURL).then(
         function(apiResponse){ return apiResponse.json()}
       ).then(
@@ -45,4 +47,6 @@ select.onchange = () =>{
     
 
 }
+
+
 
