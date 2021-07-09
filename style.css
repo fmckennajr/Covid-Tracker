@@ -6,3 +6,7 @@ select {
     font-size: larger;
     border-radius: 5%;
 }
+
+p {
+    font-size: x-large;
+}
